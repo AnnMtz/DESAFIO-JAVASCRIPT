@@ -1,0 +1,129 @@
+form{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding:20px;
+	margin-top:20px;
+	border:1px solid #333;
+	box-shadow:5px 5px 5px #ccc;
+	border-radius:5px;
+	h1{
+		margin-top:0px;
+	}
+	.form-group{
+		width:100%;
+		display:block;
+		label,input{
+			width:100%;
+		}
+		label{
+			display:block;
+			margin-bottom:10px;
+			margin-top:20px;
+		}
+		input{
+			border:1px solid #ccc;
+			border-radius:5px;
+			padding:10px;
+			padding-left:20px;
+		}
+	}
+	.btn{
+		width:200px;
+		height:30px;
+		margin-top:20px;
+		background:blue;
+		color:white;
+		border-radius:5px;
+		text-align: center;
+		padding-top:7px;
+	}
+}
+
+.data-wrapper{
+	display:flex;
+	width:100%;
+	margin-top:20px;
+	.data-card{
+		flex-basis:20%;
+		flex-shrink: 0;
+		border:1px solid #333;
+		box-shadow:5px 5px 5px #ccc;
+		padding:20px;
+		border-radius:5px;
+	}
+	.btn{
+		width:200px;
+		height:30px;
+		margin-top:20px;
+		background:blue;
+		color:white;
+		border-radius:5px;
+		text-align: center;
+		padding-top:7px;
+	}
+}
+
+/* button{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background: gray;
+	color: white;
+	border-radius: 5px 3px 1px 7px;
+	text-align: center;
+}
+
+button:hover{
+	background: skyblue;
+	color: black;
+	cursor: pointer
+} */
+
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: none;
+}
+
+@media (min-width:1024px) {
+	.form-wrapper{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.form-wrapper .form-group{
+		width: 45%;
+	    display: inline-block;
+	    box-sizing: border-box;
+	    flex-shrink: 0;
+	    border: none;
+	}
+}​
+
+.data-wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .data-wrapper .data-card {
+    flex-basis: 20%;
+    flex-shrink: 0;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 5px #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .data-wrapper .btn {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+  }
+
