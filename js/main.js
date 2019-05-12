@@ -96,7 +96,7 @@ function printData(dataToPrint) {
                         </div>
                       </div>
                     </div>
-		              </div>
+		  </div>
               </div>
           </div>
       </div>`
@@ -221,7 +221,7 @@ function afterDelete() {
   $("form").append(`
   <div class="alert text-center alert-success animated bounceInDown" role="alert">Gracias por darme un nuevo hogar!
   <span class="animated infinite zoomIn heartBeat delay-2s">&hearts;</span><br>
-  Nos pondremos en contacto contigo<br>
+  Te contactaremos vía telefónica o email<br>
   <a href="javascript:" onclick="loadHTML('./views/adoption.html');">Ver mas opciones</a>
   </div>`
   )
