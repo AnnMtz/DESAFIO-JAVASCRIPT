@@ -19,14 +19,18 @@
              <input id="pet-name" type="text" class="form-control" placeholder="Nombra a tu mascota" value=""> 
         </div>-->
         <div class="form-group">
+            <label for="exampleInputPassword1">Agrega una foto</label>
+            <input type="text" class="form-control" id="pet-image" placeholder="Coloca la liga de la foto de tu mascota">
+          </div>
+        <div class="form-group">
             <label for="">¿Cuál es el nombre de tu mascota?</label>
             <input type="name" class="form-control" id="pet-name" required="true" placeholder="Indica su nombre" value="">
         </div>
         <div class="form-group">
-            <label for="">¿Ingresa una descripcion?</label>
+            <label for="">¿Como describirias a tu mascota?</label>
             <input type="text" id="pet-description" class="form-control" required="true" placeholder="" value="">
         </div>
-        <div id="submit-button" class="btn">Agregar mascota</div>
+        <div id="submit-button" class="btn" onclick="event.preventDefault();agregar()">Agregar mascota</div>
     </form>
     <div class="data-wrapper">
 
